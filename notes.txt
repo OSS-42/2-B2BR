@@ -1,0 +1,34 @@
+Born2BeRoot notes
+
+- Voir partitions : lsblk
+
+**** GOING ROOT ****
+- going root : su root + root pwd
+- apt-get update
+- apt install sudo
+
+**** ADD USER TO SUDO ****
+- sudo su
+- visudo
+- sous root	ALL=... ajouter le user
+
+**** SSH ****
+- sudo apt install openssh-server
+- Check status : sudo systemctl status ssh
+- pause servive : sudo service ssh stop/start
+- turn off : sudo systemctl diasble/enable ssh
+- PermitRootLogin no 
+
+**** IP ****
+- getting ip : ip a
+
+**** FIREWALL ****
+- install ufw : sudo apt install ufw
+- sudo ufw enable
+- allow SSH access : sudo ufw allow ssh
+- find / -name "sshd_config" "ssh_config" and edit to port 4242  OU
+- sudo ufw allow 4242/tcp
+- sudo ufw delete x
+- check open : sudo ss -tulpn | grep LISTEN
+
+https://baigal.medium.com/born2beroot-e6e26dfb50ac
