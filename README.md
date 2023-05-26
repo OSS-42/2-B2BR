@@ -1,6 +1,6 @@
 # 42 Born2BeRoot
 
-![B2BR](https://github.com/byaliego/42-project-badges/blob/main/badges/born2beroot-bonus.png)
+![B2BR](https://github.com/byaliego/42-project-badges/blob/main/badges/born2berootm.png)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/xDeadpoolx/2-B2BR?style=for-the-badge)
 
